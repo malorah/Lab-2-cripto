@@ -1,0 +1,5 @@
+GET /vulnerabilities/brute/?username=admin&password=12345&Login=Login HTTP/1.0
+Cookie: security=low;PHPSESSID=tgbd2omedfhfeu9s00n521nti1
+Host: localhost:4280
+User-Agent: Mozilla/5.0 (Hydra)
+
